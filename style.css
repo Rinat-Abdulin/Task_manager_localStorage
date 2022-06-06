@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    background-image: url(https://cdn.mobilesyrup.com/wp-content/uploads/2018/12/things-dark-mode.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+h1 {
+    text-align: center;
+    margin: 10px 0 10px 0;
+    color: white;
+}
+
+.input {
+    width: 400px;
+    height: 40px;
+    background-color: #E6E6E6;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-color: black;
+    padding: 0 50px;
+    font-size: 16px;
+  }
+
+.button {
+    width: 100px;
+    height: 45px;
+    background-color: #E6E6E6;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    color: black;
+    margin: 0;
+    font-size: 16px;
+}
+
+.button:hover {
+     color: lightslategray;
+ }
+
+.task-manager {
+    background: linear-gradient(black, lightslategray);
+    width: 700px;
+    height: auto;
+    border: 1px solid black;
+    border-radius: 2%;
+    opacity: .9;
+}
+
+.add-block {
+    margin: 40px 0 40px 0;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.list-item {
+    display: flex;
+    justify-content: space-between;
+    width: 650px;
+    height: 30px;
+    background-color: #E6E6E6;
+    margin: 20px 0 20px 30px;
+    border: 1px solid black;
+    border-radius: 2px;
+
+}
+
+.list-item input {
+    width: 543px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.list-item p {
+    padding: 5px 0 0 20px;
+}
+
+button {
+    width: 50px;
+    height: 30px;
+    margin-left: 1px;
+    color: black;
+}
+
+button:hover {
+    color: lightslategray;
+}
